@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavya's Profile</title>
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
+</head>
+<body class="font-sans antialiased text-gray-100 leading-normal tracking-wider bg-cover" style="background-image: url('background.jpg');">
+
+    <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+        <!-- Content Column -->
+        <div class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-gray-900 opacity-75 mx-6 lg:mx-0">
+            
+            <!-- Inner Column -->
+                <div class="p-4 md:p-12 text-center lg:text-left">
+                    <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 bg-cover bg-center">
+                    </div>
+                        <h1 class="text-3xl font-bold text-white pt-8 lg:pt-0">
+                            Kavya
+                        </h1>
+                        <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-white opacity-50">
+                        </div>
+
+                        <p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">
+                            <i class="fa fa-briefcase h-4 fill-current text-white-700 pr-4"></i>
+                            Full Stack Developer
+                        </p>
+                        <p class="pt-2 text-gray-300 text-xs lg:text-sm font-bold flex items-center justify-center lg:justify-start">
+                            <i class="fa fa-map-marker h-4 fill-current text-teal-400 pr-4"></i>
+                            Virudhunagar, Tamil Nadu
+                        </p>
+                        <p class="pt-8 text-sm"> 
+                            I am a software developer currently working in Zuora, Chennai
+                        </p>
+                        <p class="pt-2 text-sm"> 
+                            Check out my social links below 
+                            
+                        </p>
+                        <div class="pt-10 pb-8">
+                            <a href="#" class="bg-teal-700 hover:bg-teal-900 text-white font-bold py-2 px-4 rounded-full">
+                                Contact Me
+                            </a>
+                        </div>
+                         <!-- Social Media Icons -->
+                        <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
+                            <a href="https://www.linkedin.com/in/kavya-sampath-kumar-76b453163/" class="link" target="_blank" data-tippy-content="Linkedin">
+                                <i class="fa fa-linkedin h-6 fill-current text-gray-600 hover:text-white"></i>
+                            </a>
+                            <a href="https://github.com/Kavya612001" class="link" target="_blank" data-tippy-content="Github">
+                                <i class="fa fa-github h-6 fill-current text-gray-600 hover:text-white"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCTzgmFD69nt9yr7utn_6VbQ" class="link" target="_blank" data-tippy-content="Youtube">
+                                <i class="fa fa-youtube h-6 fill-current text-gray-600 hover:text-white"></i>
+                            </a>
+                            <a href="https://www.instagram.com/kavya_angel_in_disguise/" class="link" target="_blank" data-tippy-content="Instagram">
+                                <i class="fa fa-instagram h-6 fill-current text-gray-600 hover:text-white"></i>
+                            </a>
+                            <a href="https://twitter.com/kavya27488431" class="link" target="_blank" data-tippy-content="Twitter">
+                                <i class="fa fa-twitter h-6 fill-current text-gray-600 hover:text-white"></i>
+                            </a>
+                        </div>
+                        <!-- End of Social Media Icons -->
+                </div>
+            <!-- End Inner Column -->
+        </div>
+    
+        <!-- End Content Column -->
+
+         <!-- Image Column -->
+        <div class="w-full lg:w-2/5 ">
+            <img src="Kavya_crop.png" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
+        </div>
+
+        <!-- End Image Column -->
+    </div>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <script>
+        tippy('.link', {
+            placement: 'top',
+        })
+    </script>
+</body>
+</html>
